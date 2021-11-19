@@ -20,7 +20,7 @@ limitations under the License.
 
 # enumerableProperties
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Return an array of an object's own enumerable property names and symbols.
 
@@ -130,12 +130,12 @@ console.log( props );
 
 ## See Also
 
--   [`@stdlib/utils/enumerable-properties-in`][@stdlib/utils/enumerable-properties-in]: return an array of an object's own and inherited enumerable property names and symbols.
--   [`@stdlib/utils/enumerable-property-symbols`][@stdlib/utils/enumerable-property-symbols]: return an array of an object's own enumerable symbol properties.
--   [`@stdlib/utils/inherited-enumerable-properties`][@stdlib/utils/inherited-enumerable-properties]: return an array of an object's inherited enumerable property names and symbols.
--   [`@stdlib/utils/keys`][@stdlib/utils/keys]: return an array of an object's own enumerable property names.
--   [`@stdlib/utils/nonenumerable-properties`][@stdlib/utils/nonenumerable-properties]: return an array of an object's own non-enumerable property names and symbols.
--   [`@stdlib/utils/properties`][@stdlib/utils/properties]: return an array of an object's own enumerable and non-enumerable property names and symbols.
+-   <span class="package-name">[`@stdlib/utils/enumerable-properties-in`][@stdlib/utils/enumerable-properties-in]</span><span class="delimiter">: </span><span class="description">return an array of an object's own and inherited enumerable property names and symbols.</span>
+-   <span class="package-name">[`@stdlib/utils/enumerable-property-symbols`][@stdlib/utils/enumerable-property-symbols]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable symbol properties.</span>
+-   <span class="package-name">[`@stdlib/utils/inherited-enumerable-properties`][@stdlib/utils/inherited-enumerable-properties]</span><span class="delimiter">: </span><span class="description">return an array of an object's inherited enumerable property names and symbols.</span>
+-   <span class="package-name">[`@stdlib/utils/keys`][@stdlib/utils/keys]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable property names.</span>
+-   <span class="package-name">[`@stdlib/utils/nonenumerable-properties`][@stdlib/utils/nonenumerable-properties]</span><span class="delimiter">: </span><span class="description">return an array of an object's own non-enumerable property names and symbols.</span>
+-   <span class="package-name">[`@stdlib/utils/properties`][@stdlib/utils/properties]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable and non-enumerable property names and symbols.</span>
 
 </section>
 
@@ -186,8 +186,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-enumerable-properties/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-enumerable-properties?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/utils-enumerable-properties.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/utils-enumerable-properties/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
