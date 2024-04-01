@@ -35,14 +35,32 @@ limitations under the License.
 
 > Return an array of an object's own enumerable property names and symbols.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-enumerable-properties
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import enumerableProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-enumerable-properties@esm/index.mjs';
+var enumerableProperties = require( '@stdlib/utils-enumerable-properties' );
 ```
 
 #### enumerableProperties( obj )
@@ -79,16 +97,11 @@ var props = enumerableProperties( obj );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@esm/index.mjs';
-import hasSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-symbol-support@esm/index.mjs';
-import Symbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@esm/index.mjs';
-import enumerableProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-enumerable-properties@esm/index.mjs';
+```javascript
+var defineProperty = require( '@stdlib/utils-define-property' );
+var hasSymbolSupport = require( '@stdlib/assert-has-symbol-support' );
+var Symbol = require( '@stdlib/symbol-ctor' );
+var enumerableProperties = require( '@stdlib/utils-enumerable-properties' );
 
 var hasSymbols = hasSymbolSupport();
 var props;
@@ -124,10 +137,6 @@ props = enumerableProperties( obj );
 
 console.log( props );
 // e.g., => [ 'a', ... ]
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -162,7 +171,7 @@ console.log( props );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -229,17 +238,17 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/enumerable-properties-in]: https://github.com/stdlib-js/utils-enumerable-properties-in/tree/esm
+[@stdlib/utils/enumerable-properties-in]: https://github.com/stdlib-js/utils-enumerable-properties-in
 
-[@stdlib/utils/enumerable-property-symbols]: https://github.com/stdlib-js/utils-enumerable-property-symbols/tree/esm
+[@stdlib/utils/enumerable-property-symbols]: https://github.com/stdlib-js/utils-enumerable-property-symbols
 
-[@stdlib/utils/inherited-enumerable-properties]: https://github.com/stdlib-js/utils-inherited-enumerable-properties/tree/esm
+[@stdlib/utils/inherited-enumerable-properties]: https://github.com/stdlib-js/utils-inherited-enumerable-properties
 
-[@stdlib/utils/keys]: https://github.com/stdlib-js/utils-keys/tree/esm
+[@stdlib/utils/keys]: https://github.com/stdlib-js/utils-keys
 
-[@stdlib/utils/nonenumerable-properties]: https://github.com/stdlib-js/utils-nonenumerable-properties/tree/esm
+[@stdlib/utils/nonenumerable-properties]: https://github.com/stdlib-js/utils-nonenumerable-properties
 
-[@stdlib/utils/properties]: https://github.com/stdlib-js/utils-properties/tree/esm
+[@stdlib/utils/properties]: https://github.com/stdlib-js/utils-properties
 
 <!-- </related-links> -->
 
