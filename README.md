@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import enumerableProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-enumerable-properties@esm/index.mjs';
+import enumerableProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-enumerable-properties@v0.2.2-esm/index.mjs';
 ```
 
 #### enumerableProperties( obj )
@@ -88,7 +88,7 @@ var props = enumerableProperties( obj );
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@esm/index.mjs';
 import hasSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-symbol-support@esm/index.mjs';
 import Symbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@esm/index.mjs';
-import enumerableProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-enumerable-properties@esm/index.mjs';
+import enumerableProperties from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-enumerable-properties@v0.2.2-esm/index.mjs';
 
 var hasSymbols = hasSymbolSupport();
 var props;
